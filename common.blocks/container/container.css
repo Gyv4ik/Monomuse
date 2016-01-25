@@ -1,0 +1,8 @@
+.container {
+	padding: 0 20px;
+}
+.container__recent-posts,
+.container__about-us {
+	float: left;
+	width: 480px;
+}

@@ -1,0 +1,43 @@
+.l-footer {
+	position: relative;
+	background:	url("footer-bot_bg.png") repeat-x bottom,
+				url("footer_bg.png") repeat center;
+	font-size: 12px;
+	margin: 0 auto;
+}
+.l-footer__container {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 25px 20px 0 20px;
+}
+.l-footer__item {
+	float: left;
+	width: 240px;
+	padding: 10px;
+	font-family: $font-reg;
+	line-height: 20px;
+}
+.l-footer__bot {
+	width: 1280px;
+	height: 40px;
+	margin: 0 auto;
+}
+.l-footer__wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+	margin-bottom: 13px;
+}
+.l-footer__copyright {
+	padding: 0 10px;
+	font-size: 11px;
+	color: #899295;
+	line-height: 38px;
+}
+.l-footer__to-top {
+	position: absolute;
+	bottom: 0;
+	margin-left: 454px;
+	background: url("to-top.png") no-repeat;
+	width: 52px;
+	height: 44px;
+}

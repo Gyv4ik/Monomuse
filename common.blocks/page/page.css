@@ -1,0 +1,33 @@
+$size-reg: 12px;
+$size-xs: 10px;
+$size-s: 11px;
+$size-m: 13px;
+$size-l: 14px;
+$size-xl: 16px;
+$size-xl: 18px;
+$size-xxl: 20px;
+$size-xxxl: 22px;
+
+$color-base: #1cc1cb;
+$color-menu-bd: #b0eeef;
+$color-controls: #b1c1ca;
+$color-bd: #eaeaea;
+$color-promo: #40cbcd;
+$color-top: #858f94;
+$color-alt: #66d0fe; /*Footer*/
+$color-alt: #484d4d; /*Footer arrow*/
+
+$font-reg: "Verdana", "Verdana", "Geneva", sans-serif;
+$font-alt1: "Titillium";
+$font-alt2: "Arial", "Helvetica", sans-serif;
+$font-alt3: "Fontin Sans";
+
+.page {
+	font-size: $size-reg;
+	font-family: $font-reg;
+	line-height: 20px;
+	min-width: 1280px;
+	margin: 0;
+	background: url("top_bg.png") no-repeat top center,
+				url("header_bg.png") repeat-x;
+}

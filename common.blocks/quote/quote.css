@@ -1,0 +1,22 @@
+.quote {
+	margin: 0;
+	padding:  26px 0 29px 0;
+	font-family: $font-alt1;
+	font-style: italic;
+	font-size: 18px;
+	line-height: 24px;
+	color: #8f8f8f;
+	background: url("line_bg.png") repeat-x top,
+				url("left-quote.png") no-repeat 25px 18px;
+	text-align: center;
+}
+.quote__blue {
+	color: #1cc1cb;
+}
+.quote__bold {
+	font-weight: bold;
+	font-style: normal;
+}
+.quote__normal {
+	font-style: normal;
+}

@@ -1,0 +1,24 @@
+.personal-info {
+}
+.personal-info__item {
+	position: relative;
+	margin-right: 10px;
+	float: left;
+	padding-left: 17px;
+}
+.personal-info__item:before {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	margin-top: -5px;
+	width: 10px;
+	height: 10px;
+	content: "";
+	background: url("phone_icon.png") no-repeat;
+}
+.personal-info__item:nth-of-type(2):before {
+	background: url("mail_icon.png") no-repeat;
+}
+.personal-info__item:last-of-type {
+	margin-right: 0;
+}

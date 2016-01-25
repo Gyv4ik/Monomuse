@@ -1,0 +1,5 @@
+.services {
+	display: table;
+	padding: 34px 20px;
+	background: linear-gradient(to bottom, #f3f8f8, #f9fdfd);
+}

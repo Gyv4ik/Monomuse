@@ -1,0 +1,20 @@
+.categories__title {
+	font-family: $font-alt1;
+	font-size: 22px;
+	line-height: 30px;
+	margin-bottom: 26px;
+	color: #fff;
+	text-shadow: 1px 1px 1px #020202;
+}
+.categories__item {
+	padding-left: 14px;
+	background: url("list-arrow.png") no-repeat left center;
+	margin-bottom: 16px;
+	color: #bbc1c1;
+}
+.categories__item:last-of-type {
+	margin-bottom: 0;
+}
+.categories__link {
+	color: #bbc1c1;
+}

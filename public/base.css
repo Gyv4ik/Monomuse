@@ -1,0 +1,36 @@
+* > * {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+img {
+	display: block;
+	margin: 0 auto;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+li {
+	padding: 0;
+	margin: 0;
+}
+p {
+	margin: 0;
+}
+.clearfix:before {
+	display: table;
+	content: "";
+}
+.clearfix:after {
+	display: table;
+	content: "";
+	clear: both;
+}
+
+.link {
+	display: block;
+	text-decoration: none;
+}

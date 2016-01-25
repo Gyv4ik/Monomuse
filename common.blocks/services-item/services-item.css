@@ -1,0 +1,27 @@
+.services-item {
+  display: table-cell;
+  width: 320px;
+  padding: 0 10px;
+}
+
+.services-item__title {
+  font-family: "Titillium";
+  font-size: 20px;
+  padding-left: 32px;
+  margin-bottom: 24px;
+  color: #3a3a3a;
+  background: url("/service-item_icon1.png") no-repeat left center;
+}
+
+.services-item:nth-of-type(2) .services-item__title {
+  background: url("/service-item_icon2.png") no-repeat left center;
+}
+
+.services-item:nth-of-type(3) .services-item__title {
+  background: url("/service-item_icon3.png") no-repeat left center;
+}
+
+.services-item__paragraph {
+  line-height: 20px;
+  color: #7c7c7c;
+}

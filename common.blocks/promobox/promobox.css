@@ -1,0 +1,44 @@
+.promobox {
+	padding: 19px 30px 27px 30px;
+	font-size: 28px;
+	line-height: 20px;
+	background: url("line_bg.png") repeat-x bottom;
+	text-align: center;
+}
+.promobox__text {
+	margin: 13px 57px 0 0;
+	float: left;
+}
+.promobox__wrapper {
+	display: inline-block;
+}
+.promobox__btn {
+	position: relative;
+	float: left;
+	font-family: $font-alt2;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 47px;
+	background: linear-gradient(to bottom, #616e6e, #4e5858);
+	display: block;
+	border-radius: 5px;
+	padding: 0 60px 0 25px;
+	text-transform: uppercase;
+	color: white;
+}
+.promobox__btn:after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	margin-top: -12px;
+	right: 22px;
+	background: url("button_arrow.png");
+	width: 24px;
+	height: 25px;
+}
+.promobox__span {
+	color: #8a8a8a;
+}
+.promobox__price {
+	color: #40cbcd;
+}

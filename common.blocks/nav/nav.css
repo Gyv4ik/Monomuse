@@ -1,0 +1,11 @@
+.nav {
+	padding: 21px 20px 0 21px;
+	border-radius: 5px 5px 0 0;
+	background: url("line_bg.png") repeat-x bottom white;
+}
+.nav__logo {
+	float: left;
+}
+.nav__menu {
+	float: right;
+}

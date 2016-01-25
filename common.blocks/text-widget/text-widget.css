@@ -1,0 +1,16 @@
+.text-widget__title {
+	font-family: $font-alt1;
+	font-size: 22px;
+	line-height: 30px;
+	margin-bottom: 26px;
+	color: #fff;
+	text-shadow: 1px 1px 1px #020202;
+}
+.text-widget__item {
+	color: #bbc1c1;
+	line-height: 20px;
+	margin-bottom: 14px;
+}
+.text-widget:last-of-type {
+	margin-bottom: 0;
+}

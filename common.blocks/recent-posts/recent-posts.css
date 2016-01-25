@@ -1,0 +1,7 @@
+.recent-posts {
+	width: 460px;
+	margin: 0 10px;
+}
+.recent-posts__link {
+	background: url("blog_icon.png") no-repeat left center;
+}

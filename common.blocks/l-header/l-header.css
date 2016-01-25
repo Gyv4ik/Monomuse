@@ -1,0 +1,13 @@
+.l-header {
+
+}
+.l-header__top {
+	color: $color-top;
+	padding: 15px 10px 12px 10px;
+}
+.l-header__personal-info {
+	float: left;
+}
+.l-header__login {
+	float: right;
+}

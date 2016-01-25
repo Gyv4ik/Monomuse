@@ -1,0 +1,37 @@
+.post {
+
+}
+.post__img-container {
+	height: 185px;
+	width: 220px;
+	float: left;
+	padding: 6px;
+	border: 1px solid $color-bd;
+	margin-right: 20px;
+}
+.post__img {
+	max-width: 100%;
+}
+.post__content {
+	width: 220px;
+	float: right;
+}
+.post__title {
+	font-family: $font-alt1;
+	font-size: 18px;
+	font-weight: normal;
+	color: #5a5a5a;
+	line-height: 1.5;
+	margin: 0 0 1px 0;
+}
+.post__meta {
+	display: block;
+	margin-bottom: 18px;
+	padding-left: 20px;
+	background: url("calendar_icon.png") no-repeat left center;
+}
+.post__paragraph {
+	margin-bottom: 10px;
+	color: #7c7c7c;
+	line-height: 20px;
+}

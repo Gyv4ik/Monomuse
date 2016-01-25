@@ -1,0 +1,17 @@
+.login {
+	position: relative;
+	padding-left: 17px;
+}
+.login:hover {
+	cursor: pointer;
+}
+.login:before {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	margin-top: -4.5px;
+	width: 9px;
+	height: 9px;
+	content: "";
+	background: url("login_icon.png") no-repeat;
+}
